@@ -1,0 +1,12 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/online-shop
+    username: jurat
+    password: jurat777
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: true
+
